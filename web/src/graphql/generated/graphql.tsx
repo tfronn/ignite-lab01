@@ -93,7 +93,7 @@ export type Query = {
   __typename?: 'Query';
   course: Course;
   courses: Array<Course>;
-  enrollment: Array<Enrollment>;
+  enrollments: Array<Enrollment>;
   me: User;
   products: Array<Product>;
   purchases: Array<Purchase>;

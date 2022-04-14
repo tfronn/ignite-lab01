@@ -16,8 +16,10 @@ registerEnumType(PurchaseStatus, {
 export class Purchase {
   @Field(() => ID)
   id: string;
+
   @Field(() => PurchaseStatus)
   status: PurchaseStatus;
+
   @Field(() => Date)
   createdAt: Date;
 
